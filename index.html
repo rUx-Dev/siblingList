@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sibling List</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/style.css">
+  <script src="./src/script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="form" onsubmit="submitSiblingList(); return false;">
+      <h1>Sibling List</h1>
+      <form id="siblingList">
+        <input type="text" placeholder="Sibling 1" name="1" id="1" required>
+        <input type="text" placeholder="Sibling 2" name="2" id="2" required>
+        <input type="text" placeholder="Sibling 3" name="3" id="3" required>
+      </form>
+      <button onclick="addMore()"><i class="fa fa-plus"></i> Add More</button>
+      <button type="submit" form="siblingList">Submit</button>
+    </div>
+  </div>
+</body>
+</html>
